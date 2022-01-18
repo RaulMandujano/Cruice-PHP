@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Buen Viaje</title>
+<link rel="stylesheet" href="css/style.css" >
+
+    
+    
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet">
+
+	
+</head>
+
+
+<body>
+	
+<!-- HEADER STARTS HERE -->
+
+	<header>
+
+		<div class="logotitle clearfix">
+		<figure class="logo">
+			<img src="img/logo.png" alt="logo"
+			srcset="img/logo1.png 1x, img/logo2.png 2x, img/logo3.png 3x">
+		</figure>
+		<h1>Cruise Buen Viaje</h1>
+		<a href="tel:1-801-867-5309">1-801-867-5309</a>
+		<h2>The best experience on the sea</h2>
+		</div>
+
+    </header>
+
+	
+<div class="wrapper">    
+<!-- NAV STARTS HERE -->
+<div id="navWrapper">
+
+<nav class="clearfix">
+	
+	<button id="hamburgerBtn">
+		<span><i>&equiv;</i>OPEN</span>
+		<span><i>&otimes;</i>CLOSE</span>
+	</button>
+        
+	<ul id="primaryNav">
+		<li class="current-menu-item"><a href="#">Home</a></li>
+		<li><a href="#">Price</a></li>
+		<li class="menu-item-has-children"><a href="#">Where to?</a>
+			<ul>
+			<li><a href="#">Caribean</a></li>
+			<li><a href="#">Europe</a></li>
+			<li><a href="#">Miami</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Blog</a></li>
+		
+		<li style="float: right;"><input type="text" placeholder="Search.."></li>
+	</ul>
+	
+	
+        	
+</nav>
+
+</div>
+
+<!-- SLIDER -->
+
+<div class="my_slider clearfix">
+
+ 	 <picture>
+		<source srcset="img/image1.jpg" media="(min-width: 1000px)">
+		<source srcset="img/image1-medium.jpg" media="(min-width: 500px)">
+		<img src="img/image1-small.jpg" alt="slider">
+	</picture>
+
+  	<picture>
+		<source srcset="img/image2.jpg" media="(min-width: 1000px)">
+		<source srcset="img/image2-medium.jpg" media="(min-width: 500px)">
+		<img src="img/image2-small.jpg" alt="slider">
+	</picture>
+
+	<picture>
+		<source srcset="img/image3.jpg" media="(min-width: 1000px)">
+		<source srcset="img/image3-medium.jpg" media="(min-width: 500px)">
+		<img src="img/image3-small.jpg" alt="slider">
+	</picture>
+
+</div>
+
+<!-- MAIN STARTS HERE -->
+
+<!-- CARDS -->
+
+<div class="row clearfix">
+        
+    <h2>Our blog</h2>
+    
+    <div class="column small12 medium6 large3">
+        <figure><img src="img/cruice1.jpg" alt="cruise1"></figure>
+        <h3>First Time</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. sociis natoque</p>
+    </div>
+    
+    <div class="column small12 medium6 large3">
+        <figure><img src="img/cruice2.jpg" alt="cruise2"></figure>
+        <h3>Our Process</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. sociis natoque</p>
+    </div>
+    
+    <div class="column small12 medium6 large3">
+        <figure><img src="img/cruice3.jpg" alt="cruise3"></figure>
+        <h3>Our People</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. sociis natoque</p>
+    </div>
+    
+    <div class="column small12 medium6 large3">
+        <figure><img src="img/cruice4.jpg" alt="cruise4"></figure>
+        <h3>Our Payoff</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque</p>
+    </div>
+
+</div>  
+
+<!-- FOOTER STARTS HERE -->  
+<div id="footerWrapper" >
+	<footer class="clearfix">
+		
+		<div class="row2">
+			<div class="column2">
+				<h2>Contact Us</h2>
+				<p>CABOT CRUIZES<br>
+				23 South Main St, Suite 16<br>
+				Lexingtono, VA 24450</p>
+				<br>
+				<h2>Phone:</h2>
+				<p>1-800-555-1234</p>
+				<br>
+				<h2>Hours of Operation</h2>
+				<p>Monday - Friday 9am - 4pm</p>
+			</div>
+			
+			<div class="column2">
+				<h2>Subscribe</h2>
+				<p>Give us your email to keep your updated with all news</p>
+				<br>
+				<input type="text" name="email">
+				<br>
+				<input type="submit" value="Submit" class="submit">
+			</div>
+
+			<div class="column2">
+				<h2>Why to Travel with Buen Viaje?</h2>
+				<p>the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+			</div>
+		  </div>
+
+	</footer>
+</div> <!-- end footer wrapper-->
+    
+
+
+<script src="js/scripts.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="slick/slick.min.js"></script> 
+
+<script>
+  $(document).ready(function(){
+    $('.my_slider').slick({
+      dots:true,
+      arrows:false,
+      speed:1000
+    });
+  });
+</script>
+
+<script type="application/ld+json">
+	{
+	"@context":"https://schema.org",
+	"@type":"LocalBusiness",
+	"image":"http://raaulml.com/template/img/logo2.png",
+	"name":"Cruise Buen Viaje",
+	"address":"23 South Main St, Suite 16 Lexingtono, VA 24450",
+	"priceRange":"Email us",
+	"telephone":"(801)009-3993"
+	}
+</script>
+
+    
+</div>
+</body>
+
+</html>

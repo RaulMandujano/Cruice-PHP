@@ -1,0 +1,155 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* BODY  */
+body {
+	font-family: $defaultFont;
+	font-size: 16px;
+	font-weight: $lightWeight;
+    min-width: 320px;
+}
+
+/* NAV */
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+#primaryNav.open{
+  height: auto;
+}
+
+#primaryNav li.parent > a::after{
+  content: "\25BC";
+  font-size: .75rem;
+  color: rgba(255,255,255,.5);
+  float:right;
+}
+
+#primaryNav li ul{
+  display: none;
+}
+#primaryNav li:hover ul{
+  display: block;
+}
+
+nav input[type=text]{
+  float: right;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 12px 30px;
+  }
+
+/* HEADER  */
+
+header {
+    background-color: #1167b1;
+    width: max-width;
+}
+
+.logotitle {
+
+  width: 75rem; // 1200px
+	margin: auto;
+
+h1 {margin: 10px 0;}
+h2 {margin: 10px 0; font-weight: normal;}
+
+figure.logo {
+    float: left;
+    margin: 10px 0;
+}
+a {
+  display: none;
+}
+}
+
+
+/*---- SLIDER ----*/
+
+div.my_slider picture{width: 100%;}
+div.my_slider picture img{width: 100%;}
+
+
+/* SQUARE IMAGES */
+@for $i from 1 through 12 {
+  $w: ($i / 12) * 100%;
+  .medium#{$i} {width: $w; float: left;}
+}
+
+.row figure{width: 100%;}
+.row figure img{
+  width: 100%;
+  height: auto;
+}
+
+
+div.column{
+  width: 47%;
+  background-color: $fontColor;
+  margin: 10px 5px;
+  
+  h2, p{
+    text-align: left; 
+    margin: 5px 5px; 
+    color: $textColor;
+    font-family: $defaultFont;
+  font-size: $fontSize;
+  }
+  
+}
+
+/* FOOTER */
+
+footer {
+  font-family: $defaultFont;
+  font-size: $fontSize;
+  color: $textColor;
+  
+}
+
+div footer{
+  background-color: $primaryColor;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+footer div p{
+  width: 98%;
+  margin-top: 10px;
+
+}
+
+footer div h2{
+  margin-top: 10px;
+
+}
+
+footer div input {
+  width: 94%;
+  height: 30px;
+  margin-top: 7px;
+  border-radius: 15px;
+}
+
+
+.column2 {
+	float: left;
+	width: 100%;
+  }
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
