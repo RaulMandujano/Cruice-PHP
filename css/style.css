@@ -81,8 +81,8 @@ body {
   height: auto; }
 
 #primaryNav li.parent > a::after {
-  content: "\25BC";
-  font-size: .75rem;
+  content: '\25BC';
+  font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.5);
   float: right; }
 
@@ -92,7 +92,7 @@ body {
 #primaryNav li:hover ul {
   display: block; }
 
-nav input[type=text] {
+nav input[type='text'] {
   float: right;
   text-align: center;
   width: 100%;
@@ -102,19 +102,22 @@ nav input[type=text] {
 /* HEADER  */
 header {
   background-color: #1167b1;
-  width: max-width; }
+  width: max-width;
+  padding-top: 35px; }
 
 .logotitle {
   width: 75rem;
   margin: auto; }
   .logotitle h1 {
-    margin: 10px 0; }
+    margin: 10px 0;
+    color: white; }
   .logotitle h2 {
     margin: 10px 0;
-    font-weight: normal; }
+    font-weight: normal;
+    color: white; }
   .logotitle figure.logo {
     float: left;
-    margin: 10px 0; }
+    margin: 10px 10px; }
   .logotitle a {
     display: none; }
 
@@ -185,12 +188,18 @@ div.column {
   width: 47%;
   background-color: black;
   margin: 10px 5px; }
-  div.column h2, div.column p {
+  div.column h2,
+  div.column p {
     text-align: left;
     margin: 5px 5px;
     color: white;
     font-family: "Open Sans", sans-serif;
     font-size: 13px; }
+
+/* ROW */
+.sub-tittle {
+  margin-left: 10px;
+  font-size: 25px; }
 
 /* FOOTER */
 footer {
@@ -222,7 +231,7 @@ footer div input {
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
-  content: "";
+  content: '';
   display: table;
   clear: both; }
 
@@ -560,7 +569,7 @@ footer div input {
 
 @media only screen and (min-width: 35em) {
   /* NAV */
-  li input[type=text] {
+  li input[type='text'] {
     width: 100%; }
 
   /* Header */
@@ -645,7 +654,8 @@ footer div input {
     width: 32%;
     background-color: whitesmoke;
     margin: 10px 5px; }
-    .row div.column h2, .row div.column p {
+    .row div.column h2,
+    .row div.column p {
       text-align: left;
       margin: 5px 5px;
       color: black; }
@@ -668,8 +678,8 @@ footer div input {
       border: none;
       width: 100%;
       background: none;
-      font-size: .9rem;
-      padding: .9rem 1.2rem;
+      font-size: 0.9rem;
+      padding: 0.9rem 1.2rem;
       color: white;
       text-decoration: none;
       /*transition*/
@@ -678,8 +688,8 @@ footer div input {
     nav ul li a:hover {
       background: #0f599a; }
     nav #primaryNav li.menu-item-has-children > a:after {
-      font-size: .75rem;
-      content: "\00A0\00A0\25BC";
+      font-size: 0.75rem;
+      content: '\00A0\00A0\25BC';
       color: rgba(255, 255, 255, 0.5); }
     nav ul li ul {
       /*rules for the sub menu items*/
@@ -698,6 +708,11 @@ footer div input {
       /* this displays the menus as drop downs  */
       left: auto;
       margin-left: 0; }
+
+  header div a {
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 10px; }
 
   /* FOOTER */
   .column2 {
@@ -756,7 +771,8 @@ footer div input {
     width: 23%;
     background-color: whitesmoke;
     margin: 10px 5px; }
-    .row div.column h2, .row div.column p {
+    .row div.column h2,
+    .row div.column p {
       text-align: left;
       margin: 5px 5px;
       color: black; }
@@ -765,6 +781,6 @@ footer div input {
 
   /* Clear floats after the columns */
   .row:after {
-    content: "";
+    content: '';
     display: table;
     clear: both; } }

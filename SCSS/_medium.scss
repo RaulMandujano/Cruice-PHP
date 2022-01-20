@@ -1,16 +1,15 @@
 /* NAV */
 
-li input[type=text]{
-
-      width: 100%;
-    }
-
+li input[type='text'] {
+  width: 100%;
+}
 
 /* Header */
 
-header{margin-top: -10px;}
-
-.logotitle a{
+header {
+  margin-top: -10px;
+}
+.logotitle a {
   float: right;
   margin-right: 20px;
   text-decoration: none;
@@ -21,36 +20,48 @@ header{margin-top: -10px;}
 /* FOOTER */
 
 .column2 {
-	width: 50%;
-    border-color: $menuColor;
-  }
-
-footer div h2{
-    margin-top: 10px;
+  width: 50%;
+  border-color: $menuColor;
 }
-footer div p{
-    margin-top: 10px;
+
+footer div h2 {
+  margin-top: 10px;
+}
+footer div p {
+  margin-top: 10px;
 }
 
 /* SQUARE IMAGES */
 
 @for $i from 1 through 12 {
-    $w: ($i / 12) * 100%;
-    .medium#{$i} {width: $w; float: left;}
+  $w: ($i / 12) * 100%;
+  .medium#{$i} {
+    width: $w;
+    float: left;
+  }
 }
 
-.row figure{width: 100%;}
-.row figure img{
-    width: 100%;
-    height: auto;
+.row figure {
+  width: 100%;
+}
+.row figure img {
+  width: 100%;
+  height: auto;
 }
 
-.row div.column{
-    width: 32%;
-    background-color: whitesmoke;
-    margin: 10px 5px;
-    
-    h2, p{text-align: left; margin: 5px 5px; color: $fontColor;}
-    
-    h2{font-size: 25px;}
+.row div.column {
+  width: 32%;
+  background-color: whitesmoke;
+  margin: 10px 5px;
+
+  h2,
+  p {
+    text-align: left;
+    margin: 5px 5px;
+    color: $fontColor;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
 }
