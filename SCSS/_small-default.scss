@@ -106,8 +106,12 @@ div.my_slider picture img {
   $w: ($i / 12) * 100%;
   .medium#{$i} {
     width: $w;
-    float: left;
+    // float: left;
   }
+}
+
+.row{
+  display: flex;
 }
 
 .row figure {
@@ -119,9 +123,9 @@ div.my_slider picture img {
 }
 
 div.column {
-  width: 47%;
+  width: 50%;
   background-color: $fontColor;
-  margin: 10px 5px;
+  padding: 5px;
 
   h2,
   p {

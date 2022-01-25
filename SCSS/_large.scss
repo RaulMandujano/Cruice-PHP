@@ -78,14 +78,14 @@ header div a {
   $w: ($i / 12) * 100%;
   .large#{$i} {
     width: $w;
-    float: left;
+    // float: left;
   }
 }
 
 .row div.column {
-  width: 23%;
+  width: 25%;
   background-color: whitesmoke;
-  margin: 10px 5px;
+  // padding: auto;
 
   h2,
   p {

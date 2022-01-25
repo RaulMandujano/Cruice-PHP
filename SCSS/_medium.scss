@@ -37,7 +37,7 @@ footer div p {
   $w: ($i / 12) * 100%;
   .medium#{$i} {
     width: $w;
-    float: left;
+    // float: left;
   }
 }
 
@@ -50,9 +50,9 @@ footer div p {
 }
 
 .row div.column {
-  width: 32%;
+  width: 33.333%;
   background-color: whitesmoke;
-  margin: 10px 5px;
+  // margin: 10px 5px;
 
   h2,
   p {

@@ -130,52 +130,43 @@ div.my_slider picture img {
 
 /* SQUARE IMAGES */
 .medium1 {
-  width: 8.3333333333%;
-  float: left; }
+  width: 8.3333333333%; }
 
 .medium2 {
-  width: 16.6666666667%;
-  float: left; }
+  width: 16.6666666667%; }
 
 .medium3 {
-  width: 25%;
-  float: left; }
+  width: 25%; }
 
 .medium4 {
-  width: 33.3333333333%;
-  float: left; }
+  width: 33.3333333333%; }
 
 .medium5 {
-  width: 41.6666666667%;
-  float: left; }
+  width: 41.6666666667%; }
 
 .medium6 {
-  width: 50%;
-  float: left; }
+  width: 50%; }
 
 .medium7 {
-  width: 58.3333333333%;
-  float: left; }
+  width: 58.3333333333%; }
 
 .medium8 {
-  width: 66.6666666667%;
-  float: left; }
+  width: 66.6666666667%; }
 
 .medium9 {
-  width: 75%;
-  float: left; }
+  width: 75%; }
 
 .medium10 {
-  width: 83.3333333333%;
-  float: left; }
+  width: 83.3333333333%; }
 
 .medium11 {
-  width: 91.6666666667%;
-  float: left; }
+  width: 91.6666666667%; }
 
 .medium12 {
-  width: 100%;
-  float: left; }
+  width: 100%; }
+
+.row {
+  display: flex; }
 
 .row figure {
   width: 100%; }
@@ -185,9 +176,9 @@ div.my_slider picture img {
   height: auto; }
 
 div.column {
-  width: 47%;
+  width: 50%;
   background-color: black;
-  margin: 10px 5px; }
+  padding: 5px; }
   div.column h2,
   div.column p {
     text-align: left;
@@ -596,52 +587,40 @@ footer div input {
 
   /* SQUARE IMAGES */
   .medium1 {
-    width: 8.3333333333%;
-    float: left; }
+    width: 8.3333333333%; }
 
   .medium2 {
-    width: 16.6666666667%;
-    float: left; }
+    width: 16.6666666667%; }
 
   .medium3 {
-    width: 25%;
-    float: left; }
+    width: 25%; }
 
   .medium4 {
-    width: 33.3333333333%;
-    float: left; }
+    width: 33.3333333333%; }
 
   .medium5 {
-    width: 41.6666666667%;
-    float: left; }
+    width: 41.6666666667%; }
 
   .medium6 {
-    width: 50%;
-    float: left; }
+    width: 50%; }
 
   .medium7 {
-    width: 58.3333333333%;
-    float: left; }
+    width: 58.3333333333%; }
 
   .medium8 {
-    width: 66.6666666667%;
-    float: left; }
+    width: 66.6666666667%; }
 
   .medium9 {
-    width: 75%;
-    float: left; }
+    width: 75%; }
 
   .medium10 {
-    width: 83.3333333333%;
-    float: left; }
+    width: 83.3333333333%; }
 
   .medium11 {
-    width: 91.6666666667%;
-    float: left; }
+    width: 91.6666666667%; }
 
   .medium12 {
-    width: 100%;
-    float: left; }
+    width: 100%; }
 
   .row figure {
     width: 100%; }
@@ -651,9 +630,8 @@ footer div input {
     height: auto; }
 
   .row div.column {
-    width: 32%;
-    background-color: whitesmoke;
-    margin: 10px 5px; }
+    width: 33.333%;
+    background-color: whitesmoke; }
     .row div.column h2,
     .row div.column p {
       text-align: left;
@@ -720,57 +698,44 @@ footer div input {
 
   /* SQUARE IMAGES */
   .large1 {
-    width: 8.3333333333%;
-    float: left; }
+    width: 8.3333333333%; }
 
   .large2 {
-    width: 16.6666666667%;
-    float: left; }
+    width: 16.6666666667%; }
 
   .large3 {
-    width: 25%;
-    float: left; }
+    width: 25%; }
 
   .large4 {
-    width: 33.3333333333%;
-    float: left; }
+    width: 33.3333333333%; }
 
   .large5 {
-    width: 41.6666666667%;
-    float: left; }
+    width: 41.6666666667%; }
 
   .large6 {
-    width: 50%;
-    float: left; }
+    width: 50%; }
 
   .large7 {
-    width: 58.3333333333%;
-    float: left; }
+    width: 58.3333333333%; }
 
   .large8 {
-    width: 66.6666666667%;
-    float: left; }
+    width: 66.6666666667%; }
 
   .large9 {
-    width: 75%;
-    float: left; }
+    width: 75%; }
 
   .large10 {
-    width: 83.3333333333%;
-    float: left; }
+    width: 83.3333333333%; }
 
   .large11 {
-    width: 91.6666666667%;
-    float: left; }
+    width: 91.6666666667%; }
 
   .large12 {
-    width: 100%;
-    float: left; }
+    width: 100%; }
 
   .row div.column {
-    width: 23%;
-    background-color: whitesmoke;
-    margin: 10px 5px; }
+    width: 25%;
+    background-color: whitesmoke; }
     .row div.column h2,
     .row div.column p {
       text-align: left;
