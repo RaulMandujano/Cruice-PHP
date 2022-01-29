@@ -166,8 +166,7 @@ div.my_slider picture img {
   width: 100%; }
 
 .row {
-  display: flex;
-  flex-wrap: wrap; }
+  display: flex; }
 
 .row figure {
   width: 100%; }
@@ -176,12 +175,12 @@ div.my_slider picture img {
   width: 100%;
   height: auto; }
 
-.small12 {
+div.column {
   width: 50%;
   background-color: black;
   padding: 5px; }
-  .small12 h2,
-  .small12 p {
+  div.column h2,
+  div.column p {
     text-align: left;
     margin: 5px 5px;
     color: white;
@@ -630,15 +629,15 @@ footer div input {
     width: 100%;
     height: auto; }
 
-  .row .medium6 {
+  .row div.column {
     width: 33.333%;
     background-color: whitesmoke; }
-    .row .medium6 h2,
-    .row .medium6 p {
+    .row div.column h2,
+    .row div.column p {
       text-align: left;
       margin: 5px 5px;
       color: black; }
-    .row .medium6 h2 {
+    .row div.column h2 {
       font-size: 25px; } }
 @media only screen and (min-width: 64em) {
   div.wrapper {
@@ -734,15 +733,15 @@ footer div input {
   .large12 {
     width: 100%; }
 
-  .row .large3 {
+  .row div.column {
     width: 25%;
     background-color: whitesmoke; }
-    .row .large3 h2,
-    .row .large3 p {
+    .row div.column h2,
+    .row div.column p {
       text-align: left;
       margin: 5px 5px;
       color: black; }
-    .row .large3 h2 {
+    .row div.column h2 {
       font-size: 25px; }
 
   /* Clear floats after the columns */
@@ -750,3 +749,5 @@ footer div input {
     content: '';
     display: table;
     clear: both; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -112,6 +112,7 @@ div.my_slider picture img {
 
 .row{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .row figure {
@@ -122,7 +123,7 @@ div.my_slider picture img {
   height: auto;
 }
 
-div.column {
+.small12 {
   width: 50%;
   background-color: $fontColor;
   padding: 5px;
