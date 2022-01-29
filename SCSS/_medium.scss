@@ -9,13 +9,39 @@ li input[type='text'] {
 header {
   margin-top: -10px;
 }
-.logotitle a {
-  float: right;
-  margin-right: 20px;
-  text-decoration: none;
-  display: block;
-  color: black;
+
+.column {
+  float: left;
+  padding: 10px;
 }
+
+.left {
+  width: 15%;
+}
+
+.right {
+  display: flex;
+  width: 20%;
+}
+
+.middle {
+  width: 65%;
+}
+
+
+header div a {
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+// .logotitle a {
+//   float: right;
+//   margin-right: 20px;
+//   text-decoration: none;
+//   display: block;
+//   color: black;
+// }
 
 /* FOOTER */
 

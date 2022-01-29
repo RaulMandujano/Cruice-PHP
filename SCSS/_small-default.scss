@@ -67,30 +67,58 @@ header {
   background-color: #1167b1;
   width: max-width;
   padding-top: 35px;
+
+  h1{color: white;}
+  h2{color: white;}
 }
 
-.logotitle {
-  width: 75rem; // 1200px
-  margin: auto;
-
-  h1 {
-    margin: 10px 0;
-    color: white;
-  }
-  h2 {
-    margin: 10px 0;
-    font-weight: normal;
-    color: white;
-  }
-
-  figure.logo {
-    float: left;
-    margin: 10px 10px;
-  }
-  a {
-    display: none;
-  }
+.column {
+  float: left;
+  padding: 10px;
 }
+
+.left {
+  width: 30%;
+}
+
+.right {
+  display: none;
+}
+
+.middle {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.logotitle:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+// .logotitle {
+//   width: 75rem; // 1200px
+//   margin: auto;
+
+//   h1 {
+//     margin: 10px 0;
+//     color: white;
+//   }
+//   h2 {
+//     margin: 10px 0;
+//     font-weight: normal;
+//     color: white;
+//   }
+
+//   figure.logo {
+//     float: left;
+//     margin: 10px 10px;
+//   }
+//   a {
+//     display: none;
+//   }
+// }
 
 /*---- SLIDER ----*/
 

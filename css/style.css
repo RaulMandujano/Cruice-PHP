@@ -104,22 +104,29 @@ header {
   background-color: #1167b1;
   width: max-width;
   padding-top: 35px; }
+  header h1 {
+    color: white; }
+  header h2 {
+    color: white; }
 
-.logotitle {
-  width: 75rem;
-  margin: auto; }
-  .logotitle h1 {
-    margin: 10px 0;
-    color: white; }
-  .logotitle h2 {
-    margin: 10px 0;
-    font-weight: normal;
-    color: white; }
-  .logotitle figure.logo {
-    float: left;
-    margin: 10px 10px; }
-  .logotitle a {
-    display: none; }
+.column {
+  float: left;
+  padding: 10px; }
+
+.left {
+  width: 30%; }
+
+.right {
+  display: none; }
+
+.middle {
+  width: 70%; }
+
+/* Clear floats after the columns */
+.logotitle:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 /*---- SLIDER ----*/
 div.my_slider picture {
@@ -568,12 +575,24 @@ footer div input {
   header {
     margin-top: -10px; }
 
-  .logotitle a {
-    float: right;
-    margin-right: 20px;
-    text-decoration: none;
-    display: block;
-    color: black; }
+  .column {
+    float: left;
+    padding: 10px; }
+
+  .left {
+    width: 15%; }
+
+  .right {
+    display: flex;
+    width: 20%; }
+
+  .middle {
+    width: 65%; }
+
+  header div a {
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 10px; }
 
   /* FOOTER */
   .column2 {
@@ -687,11 +706,6 @@ footer div input {
       /* this displays the menus as drop downs  */
       left: auto;
       margin-left: 0; }
-
-  header div a {
-    background-color: white;
-    padding: 5px 15px;
-    border-radius: 10px; }
 
   /* FOOTER */
   .column2 {
